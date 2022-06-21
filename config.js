@@ -6,8 +6,8 @@ global.prems = []
 //=============『 Info Owner 』============== //
 global.nameowner = 'Aria Putra Pratama'
 global.numberowner = '62895622729068'
-global.instagram = 'https://instagram.com/hyzer_stfu'
-global.github = 'https://github.com/Hyzerr'
+global.instagram = 'https://instagram.com/iniariaa'
+global.github = 'https://github.com/ariaaaptraa'
 global.dana = '089525340368'
 global.pulsa = '083822276423'
 global.gopay = '089525340368'
