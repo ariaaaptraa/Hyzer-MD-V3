@@ -171,9 +171,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'textpro') tags = {
   'textpro': 'TEXT PRO MENU', 
   }
-  if (teks == 'photooxy') tags = {
-  'photooxy': 'PHOTO OXY MENU', 
-  }
 
 //━━━━━━━━[ DATABASE USER ]━━━━━━━━//
   try {
