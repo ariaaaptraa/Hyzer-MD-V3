@@ -1,9 +1,12 @@
+import fetch from 'node-fetch'
+import bo from 'dhn-api'
 let handler = async (m, { conn }) => {
-let rest = 'https://api.zacros.my.id/randomimg/darkjokes'
-    conn.sendButtonImg(m.chat, rest, 'Dark? 🤨', wm2, 'NEXT', '.darkjokes', m)
+const res = await bo.Darkjokes()
+await conn.sendButton(m.chat,`Dark ga si adick adick`, wm, res, [['Darkjoke','.darkjoke']] ,m)
 }
-handler.help = ['darkjokes']
-handler.tags = ['internet', 'fun']
-handler.command = /^(dragjokes|darkjokes)$/i
+handler.help = ['darkjoke']
+handler.tags = ['fun']
+handler.command = /^(darkjoke)$/i
+handler.limit = true
 
-module.exports = handler
+export default handler
