@@ -30,7 +30,10 @@ global.wm3 = '⫹⫺ AriaBot-MD'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+function kintil(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
+global.fla = kintil(['http://ariarestapii.herokuapp.com/api/textpro/devil?apikey=aria&text=', 'http://ariarestapii.herokuapp.com/api/textpro/neon?apikey=aria&text=', ])
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
