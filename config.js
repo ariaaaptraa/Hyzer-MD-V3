@@ -8,9 +8,9 @@ global.nameowner = 'Aria Putra Pratama'
 global.numberowner = '62895622729068'
 global.instagram = 'https://instagram.com/hyzer_stfu'
 global.github = 'https://github.com/Hyzerr'
-global.dana = '087892711054'
-global.pulsa = '085212023766'
-global.gopay = '087892711054'
+global.dana = '089525340368'
+global.pulsa = '083822276423'
+global.gopay = '089525340368'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'AriaBot - MD'
